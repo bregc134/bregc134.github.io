@@ -1,4 +1,6 @@
-* {  }
+* { 
+	vertical-align: top; 
+}
 
 body { 
 	font-family:helvetica;
@@ -9,13 +11,13 @@ body {
 
 .wrapper{
 	width:960px;
-	background: lavender;
 	margin:0 auto;
 }
 
 h1, h2 {
 	font-size:20px;
 	font-weight: normal;
+
 }
 
 /*My Links*/
@@ -35,10 +37,6 @@ a{
 a:hover{color: yellow;}
 /*a:active{color: purple;}*/
 
-div {
-	background: yellow;
-	vertical-align: top;
-}
 
 .c{
 	background:yellow;
@@ -47,6 +45,12 @@ div {
 	margin:0 15px 30px 15px;
 	display:inline-block;
 }
+.no-gutters { margin:0; }
+
+.parent { 
+	font-size: 0;
+	line-height: 0;
+ }
 
 .c1{ width:130px;}
 .c2{ width:290px;}
@@ -55,6 +59,11 @@ div {
 .c5{ width:770px;}
 .c6{ width:930px;}
 
+
+img {
+	width:100%;
+	height: auto;
+}
 
 
 
