@@ -1,5 +1,8 @@
 * { 
-	vertical-align: top; 
+	vertical-align: top;
+	background: lavender;
+	color: red; 
+
 }
 
 body { 
@@ -14,16 +17,19 @@ body {
 	margin:0 auto;
 }
 
-h1, h2 {
-	font-size:20px;
-	font-weight: normal;
-
+h1 {
+	font-size:40px;
+	font-weight: bold;
+}
+h2 {
+	font-size:30px;
+	font-weight: bold;
 }
 
 /*My Links*/
 
 a{
-	color: black;
+	color: red;
 	text-decoration: none;
 	/*border:1px solid black;*/
 	/*background-color: lavender;*/
@@ -34,12 +40,12 @@ a{
 	  Blue = 0000ff*/
 }
 /*a:visited {color: red;}*/
-a:hover{color: red;}
+a:hover{color: yellow;}
 /*a:active{color: purple;}*/
 
 
 .c{
-	background:yellow;
+	/*background:yellow;*/
 	font-size:16px;
 	line-height: 20px;
 	margin:0 15px 30px 15px;
