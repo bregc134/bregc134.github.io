@@ -23,10 +23,76 @@ p{
 
 h1 {
 	font-size:40px;
-	text-align: left;
 	font-family: bangla mn;
 	font-weight: normal;
+	text-align: right;
+}
 
+.eggs:hover {
+	color: yellow;
+} 
+.turkey:hover {
+	color: yellow;
+}
+.bss:hover {
+	color: yellow;
+} 
+.lettuce:hover {
+	color: yellow;
+} 
+.tomato:hover {
+	color: yellow;
+} 
+.sourdough:hover {
+	color: yellow;
+}
+.cjs:hover {
+	color: yellow;
+}
+.cms:hover {
+	color: yellow;
+}
+.bpc:hover {
+	color: yellow;
+} 
+.coconut:hover {
+	color: yellow;
+} 
+.potatoes:hover {
+	color: yellow;
+} 
+.chives:hover {
+	color: yellow;
+} 
+.eb:hover {
+	color: yellow;
+} 
+.cns:hover {
+	color: yellow;
+} 
+.steak:hover {
+	color: yellow;
+} 
+.lp:hover {
+	color: yellow;
+} 
+.salt:hover {
+	color: yellow;
+}
+.ms:hover {
+	color: yellow;
+}
+.raisins:hover {
+	color: yellow;
+}
+.pb:hover {
+	color: yellow;
+}
+.br:hover {
+	color: yellow;
+}
+.mustard:hover {
+	color: yellow;
 }
 
 /*My Links*/
