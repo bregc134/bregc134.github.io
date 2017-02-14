@@ -28,7 +28,21 @@ p{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: yellow;
+	background:linear-gradient(to bottom, 
+		#ffd700 20%,#fff0f5 50%,#cd853f 80%);
+	display: none;
+}
+
+.poem1 {
+	position: fixed;
+	top:50%;
+	left: 0%;
+	right: 0%;
+	transform: translateY(-50%);
+	font-size:50px;
+	font-family: times;
+	font-weight: normal;
+	text-align: center;
 	display: none;
 }
 
@@ -39,75 +53,72 @@ h1 {
 	text-align: right;
 }
 
-.eggs:visited {
-	color: gold;
-} 
 
 .eggs:hover {
-	color: gold;
+	color: #ffd700;
 } 
 .turkey:hover {
-	color: lavenderblush;
+	color: #fff0f5;
 }
 .bss:hover {
-	color: darksalmon;
+	color: #e9967a;
 } 
 .lettuce:hover {
-	color: palegreen;
+	color: #98fb98;
 } 
 .tomato:hover {
-	color: orangered;
+	color: #ff4500;
 } 
 .sourdough:hover {
-	color: peru;
+	color: #cd853f;
 }
 .cjs:hover {
-	color: olivedrab;
+	color: #6b8e23;
 }
 .cms:hover {
-	color: wheat;
+	color: #f5deb3;
 }
 .bpc:hover {
-	color: yellowgreen;
+	color: #9acd32;
 } 
 .coconut:hover {
-	color: whitesmoke;
+	color: #f5f5f5;
 } 
 .potatoes:hover {
-	color: oldlace;
+	color: #fdf5e6;
 } 
 .chives:hover {
-	color: forestgreen;
+	color: #228b22;
 } 
 .eb:hover {
-	color: lemonchiffon;
+	color: #fffacd;
 } 
 .cns:hover {
-	color: yellow;
+	color: #ffff00;
 } 
 .steak:hover {
-	color: firebrick;
+	color: #b22222;
 } 
 .lp:hover {
-	color: saddlebrown;
+	color: #8b4513;
 } 
 .salt:hover {
-	color: seashell;
+	color: #fff5ee;
 }
 .ms:hover {
-	color: darkgreen;
+	color: #006400;
 }
 .raisins:hover {
-	color: indigo;
+	color: #4b0082;
 }
 .pb:hover {
-	color: burlywood;
+	color: #deb887;
 }
 .br:hover {
-	color: papayawhip;
+	color: #ffefd5;
 }
 .mustard:hover {
-	color: goldenrod;
+	color: #daa520;
 }
 
 /*My Links*/
