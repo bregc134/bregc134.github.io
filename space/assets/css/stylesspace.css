@@ -16,83 +16,94 @@ body {
 }
 
 p{
-	font-size:24px;
-	font-family: bangla mn;
+	font-size:30px;
+	font-family: times;
 	font-weight: normal;
 }
 
+
+.overlay {
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: yellow;
+	display: none;
+}
+
 h1 {
-	font-size:40px;
-	font-family: bangla mn;
+	font-size:50px;
+	font-family: times;
 	font-weight: normal;
 	text-align: right;
 }
 
 .eggs:hover {
-	color: yellow;
+	color: gold;
 } 
 .turkey:hover {
-	color: yellow;
+	color: lavenderblush;
 }
 .bss:hover {
-	color: yellow;
+	color: darksalmon;
 } 
 .lettuce:hover {
-	color: yellow;
+	color: palegreen;
 } 
 .tomato:hover {
-	color: yellow;
+	color: orangered;
 } 
 .sourdough:hover {
-	color: yellow;
+	color: peru;
 }
 .cjs:hover {
-	color: yellow;
+	color: olivedrab;
 }
 .cms:hover {
-	color: yellow;
+	color: wheat;
 }
 .bpc:hover {
-	color: yellow;
+	color: yellowgreen;
 } 
 .coconut:hover {
-	color: yellow;
+	color: whitesmoke;
 } 
 .potatoes:hover {
-	color: yellow;
+	color: oldlace;
 } 
 .chives:hover {
-	color: yellow;
+	color: forestgreen;
 } 
 .eb:hover {
-	color: yellow;
+	color: lemonchiffon;
 } 
 .cns:hover {
 	color: yellow;
 } 
 .steak:hover {
-	color: yellow;
+	color: firebrick;
 } 
 .lp:hover {
-	color: yellow;
+	color: saddlebrown;
 } 
 .salt:hover {
-	color: yellow;
+	color: seashell;
 }
 .ms:hover {
-	color: yellow;
+	color: darkgreen;
 }
 .raisins:hover {
-	color: yellow;
+	color: indigo;
 }
 .pb:hover {
-	color: yellow;
+	color: burlywood;
 }
 .br:hover {
-	color: yellow;
+	color: papayawhip;
 }
 .mustard:hover {
-	color: yellow;
+	color: goldenrod;
 }
 
 /*My Links*/
