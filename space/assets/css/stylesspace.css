@@ -3,7 +3,7 @@
 }
 
 body { 
-	font-family:helvetica;
+	font-family:times;
 	font-size:0px;
 	margin:0;
 	padding:0;
@@ -38,6 +38,10 @@ h1 {
 	font-weight: normal;
 	text-align: right;
 }
+
+.eggs:visited {
+	color: gold;
+} 
 
 .eggs:hover {
 	color: gold;
