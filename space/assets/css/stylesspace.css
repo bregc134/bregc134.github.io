@@ -29,11 +29,22 @@ p{
 	right: 0;
 	bottom: 0;
 	background:linear-gradient(to bottom, 
-		#ffd700 20%,#fff0f5 50%,#cd853f 80%);
+		#ffd700 25%,#fff0f5 50%,#cd853f 75%);
 	display: none;
 }
 
-.poem1 {
+
+img {
+	position: fixed;
+	width:3%;
+	height: auto;
+	cursor: pointer;
+	top: 10px;
+	right: 10px;
+	left: 10px;
+}
+
+.poem {
 	position: fixed;
 	top:50%;
 	left: 0%;
@@ -51,6 +62,10 @@ h1 {
 	font-family: times;
 	font-weight: normal;
 	text-align: right;
+}
+
+.food p {
+	cursor: pointer;
 }
 
 
