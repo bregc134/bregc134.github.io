@@ -36,7 +36,7 @@ p{
 
 img {
 	position: fixed;
-	width:3%;
+	width:5%;
 	height: auto;
 	cursor: pointer;
 	top: 10px;
@@ -55,13 +55,17 @@ img {
 	font-weight: normal;
 	text-align: center;
 	display: none;
+
 }
 
 h1 {
-	font-size:50px;
+	font-size:30px;
 	font-family: times;
 	font-weight: normal;
 	text-align: right;
+	/*position: fixed;*/
+	/*right: 30px;
+	top: 10px;*/
 }
 
 .food p {
@@ -69,70 +73,70 @@ h1 {
 }
 
 
-.eggs:hover {
+.eggs:hover, .eggs.selected {
 	color: #ffd700;
 } 
-.turkey:hover {
+.turkey:hover, .turkey.selected {
 	color: #fff0f5;
 }
-.bss:hover {
+.bss:hover, .bss.selected {
 	color: #e9967a;
 } 
-.lettuce:hover {
+.lettuce:hover, .lettuce.selected {
 	color: #98fb98;
 } 
-.tomato:hover {
+.tomato:hover, .tomato.selected {
 	color: #ff4500;
 } 
-.sourdough:hover {
+.sourdough:hover, .sourdough.selected{
 	color: #cd853f;
 }
-.cjs:hover {
+.cjs:hover, .cjs.selected {
 	color: #6b8e23;
 }
-.cms:hover {
+.cms:hover, .cms.selected {
 	color: #f5deb3;
 }
-.bpc:hover {
+.bpc:hover, .bpc.selected {
 	color: #9acd32;
 } 
-.coconut:hover {
+.coconut:hover, .coconut.selected {
 	color: #f5f5f5;
 } 
-.potatoes:hover {
+.potatoes:hover, .potatoes.selected {
 	color: #fdf5e6;
 } 
-.chives:hover {
+.chives:hover, .chives.selected {
 	color: #228b22;
 } 
-.eb:hover {
+.eb:hover, .eb.selected {
 	color: #fffacd;
 } 
-.cns:hover {
+.cns:hover, .cns.selected {
 	color: #ffff00;
 } 
-.steak:hover {
+.steak:hover, .steak.selected {
 	color: #b22222;
 } 
-.lp:hover {
+.lp:hover, .lp.selected {
 	color: #8b4513;
 } 
-.salt:hover {
+.salt:hover, .salt.selected {
 	color: #fff5ee;
 }
-.ms:hover {
+.ms:hover, .ms.selected {
 	color: #006400;
 }
-.raisins:hover {
+.raisins:hover, .raisins.selected {
 	color: #4b0082;
 }
-.pb:hover {
+.pb:hover, .pb.selected {
 	color: #deb887;
 }
-.br:hover {
+.br:hover, .br.selected {
 	color: #ffefd5;
 }
-.mustard:hover {
+.mustard:hover, .mustard.selected {
 	color: #daa520;
 }
 
@@ -145,7 +149,7 @@ h1 {
 
 .c{
 	/*background:yellow;*/
-	font-size:16px;
+	font-size:10px;
 	line-height: 20px;
 	margin:0 15px 30px 15px;
 	display:inline-block;

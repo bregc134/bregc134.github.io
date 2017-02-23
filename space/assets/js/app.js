@@ -38,7 +38,7 @@ $(".hit p").click(function() {
 		$(".refresh").show();
 		$(".refresh").css("background","linear-gradient(to top, " + colors[0] + " 25%," + colors[1] + " 50%," + colors[2] + " 75%")
 	}
-	console.log("clicked");
+	$(this).addClass('selected');
 });
 
 $(".refresh").click(function() {
