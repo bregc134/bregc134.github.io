@@ -1,0 +1,89 @@
+body{
+	margin: 50px;
+	padding: 50px;
+	font-size: 0px;
+}
+
+.container{
+	background: #ff0;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.red-square{
+	background: #f00;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.blue-square{
+	background: #00f;
+	width: 100px;
+	height: 100px;
+
+}
+
+.letter-wrapper{
+	width:150px;
+	height: 200px;
+	display: inline-block;
+	background:#f8f8f8;
+	margin:0 15px 60px 15px;
+}
+
+.bar{
+	position: absolute;
+	background: #000;
+	border-radius: 15px;
+}
+
+.bar.vertical{
+	height:200px;
+	width: 30px;
+}
+
+.bar.horizontal{
+	height:30px;
+	width: 150px;
+}
+
+.mid{ top: 190px;}
+
+.right{ right: 530px;}
+
+
+.red { background: #f00 }
+
+.yellow { background: #ff0 }
+
+.blue { background: #00f }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
