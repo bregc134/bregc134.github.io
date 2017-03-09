@@ -1,0 +1,43 @@
+.letter-wrapperA{
+width: 100px;
+height: 200px;
+position: relative;
+display: inline-block;
+margin: 20px;
+background-color: yellow;
+}
+
+.top-bar{
+width:20px;
+height: 20px;
+top: 0;
+left: 0;
+background-color: blue;
+display: inline-block;
+}
+.vertical-left{
+width: 20px;
+height: 20px;
+top: 0;
+left: 0;
+background-color: blue;
+/*display: inline-block;*/
+}
+
+
+/*.cross-bar{
+width:100px;
+height: 20px;
+top: 90px;
+left: 0;
+}
+
+.vertical-right{
+width: 20px;
+height: 200px;
+top: 0;
+right: 0;
+}
+
+
+*/
