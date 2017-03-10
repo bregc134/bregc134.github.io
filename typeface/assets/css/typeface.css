@@ -1,43 +1,180 @@
-.letter-wrapperA{
-width: 100px;
-height: 200px;
-position: relative;
-display: inline-block;
-margin: 20px;
-background-color: yellow;
+.letter {
+  font-size: 0;
+  width: 100px;
+  height: 160px;
+  display: inline-block;
+  margin: 20px;
+  /*background-color: yellow;*/
 }
 
-.top-bar{
-width:20px;
-height: 20px;
-top: 0;
-left: 0;
-background-color: blue;
-display: inline-block;
-}
-.vertical-left{
-width: 20px;
-height: 20px;
-top: 0;
-left: 0;
-background-color: blue;
-/*display: inline-block;*/
+.pixel {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  display: inline-block;
 }
 
-
-/*.cross-bar{
-width:100px;
-height: 20px;
-top: 90px;
-left: 0;
+.on {
+  background-color: black;
+  border: 2px solid black;
 }
 
-.vertical-right{
-width: 20px;
-height: 200px;
-top: 0;
-right: 0;
+.letter-a .on {
+  border: 2px solid black;
+  background: #4990E2;
+}
+
+.letter-b .on {
+  border: 2px solid black;
+  background: #F8E81C;
+}
+
+.letter-c .on {
+  border: 2px solid black;
+  background: #9012FE;
+}
+
+.letter-d .on {
+  border: 2px solid black;
+  background: #50E3C2;
+}
+
+.letter-e .on {
+  border: 2px solid black;
+  background: #7ED321;
+}
+
+.letter-f .on {
+  border: 2px solid black;
+  background: #D12136;
+}
+
+.letter-g .on {
+  border: 2px solid black;
+  background: #B8E986;
+}
+
+.letter-h .on {
+  border: 2px solid black;
+  background: #BD0FE1;
+}
+
+.letter-i .on {
+  border: 2px solid black;
+  background: #F6A623;
+}
+
+.letter-j .on {
+  border: 2px solid black;
+  background: #870101;
+}
+
+.letter-k .on {
+  border: 2px solid black;
+  background: #46BA6F;
+}
+
+.letter-l .on {
+  border: 2px solid black;
+  background: #2E00FF;
+}
+
+.letter-m .on {
+  border: 2px solid black;
+  background: #FF8300;
+}
+
+.letter-n .on {
+  border: 2px solid black;
+  background: #C0FF00;
+}
+
+.letter-o .on {
+  border: 2px solid black;
+  background: #FC00FF;
+}
+
+.letter-p .on {
+  border: 2px solid black;
+  background: #EB168C;
+}
+
+.letter-q .on {
+  border: 2px solid black;
+  background: #BD6ABE;
+}
+
+.letter-r .on {
+  border: 2px solid black;
+  background: #00FFB7;
+}
+
+.letter-s .on {
+  border: 2px solid black;
+  background: #267715;
+}
+
+.letter-t .on {
+  border: 2px solid black;
+  background: #4A4A4A;
+}
+
+.letter-u .on {
+  border: 2px solid black;
+  background: #036FD0;
+}
+
+.letter-v .on {
+  border: 2px solid black;
+  background: #5F00A0;
+}
+
+.letter-w .on {
+  border: 2px solid black;
+  background: #9405C1;
+}
+
+.letter-x .on {
+  border: 2px solid black;
+  background: #31D2D6;
+}
+
+.letter-y .on {
+  border: 2px solid black;
+  background: #F2D202;
+}
+
+.letter-z .on {
+  border: 2px solid black;
+  background: #FF0000;
 }
 
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
