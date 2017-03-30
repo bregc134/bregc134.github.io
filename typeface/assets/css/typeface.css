@@ -1,3 +1,11 @@
+body {
+  margin-top: 550px;
+}
+
+.all-letters {
+  display: none;
+}
+
 .letter {
   font-size: 0;
   width: 100px;
@@ -7,6 +15,10 @@
   /*background-color: yellow;*/
 }
 
+.button{
+  
+}
+
 .pixel {
   width: 16px;
   height: 16px;
@@ -14,9 +26,23 @@
   display: inline-block;
 }
 
+.space {
+  font-size: 0;
+  width: 100px;
+  height: 160px;
+  display: inline-block;
+  margin: 20px;
+  z-index: 10;
+}
+
 .on {
   background-color: black;
   border: 2px solid black;
+}
+
+@keyframes letterdrop {
+  from { top: -800px; }
+  to { top:0;}
 }
 
 .letter-a .on {
@@ -24,138 +50,274 @@
   background: #4990E2;
   animation: letterdrop 3s ease-in forwards;
   z-index: 10;
+  position: relative;
+  top: 0;
 }
 
 .letter-b .on {
   border: 2px solid black;
   background: #F8E81C;
+  animation: letterdrop 3s ease-in forwards;
+  top: 0;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-c .on {
   border: 2px solid black;
   background: #9012FE;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-d .on {
   border: 2px solid black;
   background: #50E3C2;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-e .on {
   border: 2px solid black;
   background: #7ED321;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-f .on {
   border: 2px solid black;
   background: #D12136;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-g .on {
   border: 2px solid black;
   background: #B8E986;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-h .on {
   border: 2px solid black;
   background: #BD0FE1;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-i .on {
   border: 2px solid black;
   background: #F6A623;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-j .on {
   border: 2px solid black;
   background: #870101;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-k .on {
   border: 2px solid black;
   background: #46BA6F;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-l .on {
   border: 2px solid black;
   background: #2E00FF;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-m .on {
   border: 2px solid black;
   background: #FF8300;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-n .on {
   border: 2px solid black;
   background: #C0FF00;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-o .on {
   border: 2px solid black;
   background: #FC00FF;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-p .on {
   border: 2px solid black;
   background: #EB168C;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-q .on {
   border: 2px solid black;
   background: #BD6ABE;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-r .on {
   border: 2px solid black;
   background: #00FFB7;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-s .on {
   border: 2px solid black;
   background: #267715;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-t .on {
   border: 2px solid black;
   background: #4A4A4A;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-u .on {
   border: 2px solid black;
   background: #036FD0;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-v .on {
   border: 2px solid black;
   background: #5F00A0;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-w .on {
   border: 2px solid black;
   background: #9405C1;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-x .on {
   border: 2px solid black;
   background: #31D2D6;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-y .on {
   border: 2px solid black;
   background: #F2D202;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 .letter-z .on {
   border: 2px solid black;
   background: #FF0000;
+  top: 0;
+  animation: letterdrop 3s ease-in forwards;
+  z-index: 10;
+  position: relative;
 }
 
 
-@keyframes letterdrop {
-  from { transform: translateY(-200px); }
-  to { transform: translateY(37.8vw); }
+.blinking-cursor {
+  font-weight: 20;
+  font-size: 250px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
 }
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;}
+  50% { color: black;}
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;}
+  50% { color: black;}
+}
+
+@-webkit-keyframes "blink" {
+  from, to { color: transparent;} 
+  50% { color: black;}
+}
+
+@-ms-keyframes "blink" {
+  from, to {color: transparent;}
+  50% {color: black;}
+}
+
+@-o-keyframes "blink" {
+  from, to {mcolor: transparent;}
+  50% { color: black;}
+}
+
 
 
 
