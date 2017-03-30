@@ -7,11 +7,14 @@ $('.nav-item').click(function() {
 
 	$('.nav-item').removeClass('active');
 	$(this).addClass('active');
+	$('.about-text').addClass('hide');
 
 	if(button_name == 'beyonce'){
 		$('.slay').removeClass('hide');
 		$ ('audio')[0].play();
-		$(this).removeClass('active');
+	
+	} else if(button_name == 'about'){
+		$('.about-text').removeClass('hide');
 	}
 
 });
@@ -19,6 +22,8 @@ $('.nav-item').click(function() {
 
 $('.close').click(function(){
 	$('.slay').addClass('hide');
+	$(this).removeClass('active');
+	$('audio')[0].pause();
 
 });
 

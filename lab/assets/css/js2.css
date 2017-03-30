@@ -68,7 +68,7 @@ li{
 }
 
 .about{
-	background:#f1f1f1;
+	background:#ffa;
 }
 
 .slay{
@@ -104,6 +104,10 @@ li{
 	display:none;
 }
 
+.about-text{
+	font-size: 20px;
+	line-height: 20px
+}
 
 
 
