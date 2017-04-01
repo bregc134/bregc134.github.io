@@ -42,13 +42,13 @@ body {
 
 @keyframes letterdrop {
   from { top: -800px; }
-  to { top:0;}
+  to { top:-499px;}
 }
 
 .letter-a .on {
   border: 2px solid black;
   background: #4990E2;
-  animation: letterdrop 3s ease-in forwards;
+  animation: letterdrop 2s ease-in forwards;
   z-index: 10;
   position: relative;
   top: 0;
@@ -284,6 +284,9 @@ body {
   font-weight: 20;
   font-size: 250px;
   color: #2E3D48;
+  position: absolute;
+  top:5px;
+  left:10px;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
@@ -318,6 +321,13 @@ body {
   50% { color: black;}
 }
 
+
+
+form{
+  position: absolute;
+  top:10px;
+  right:10px;
+}
 
 
 
