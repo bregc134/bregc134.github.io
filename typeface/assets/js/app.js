@@ -1,4 +1,11 @@
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
 var charsTyped = 0;
+var lines_typed = 0;
+var window_height = $(window).height();
+var total_text_height = 1;
 
 $(window).keypress(function(e) {
   // console.log(e.which);
@@ -7,11 +14,17 @@ $(window).keypress(function(e) {
   if ((charsTyped*140 + 100) > $(window).width()) {
     console.log("do new line stuff");
     charsTyped = 0;
-    $(window).scrollTop($(window).scrollTop() + 200);
+    lines_typed++;
+    three_lines = 600;
+    total_text_height = total_text_height * lines_typed;
+
+    if(total_text_height > three_lines) {
+      console.log('IM IN');
+      var current_position = $(window).scrollTop();
+      var new_position = $(window).scrollTop() + 200;
+      $('html, body').animate({ 'scrollTop' : new_position });
+    }
   }
-  $(window).scrollTop({  
-  behavior: 'smooth' 
-});
 
   e.preventDefault();
 
