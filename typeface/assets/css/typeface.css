@@ -279,6 +279,7 @@ html, body {
 .stage {
   display: inline-block;
   margin-bottom: 100%;
+  cursor: text;
 }
 
 .stage:after {
@@ -297,34 +298,40 @@ html, body {
 @keyframes "blink" {
   from, to {
     color: transparent;}
-  50% { color: white;}
+  50% { color: white;
+        cursor: text;}
+
 }
 
 @-moz-keyframes blink {
   from, to {
     color: transparent;}
-  50% { color: white;}
+  50% { color: white;
+        cursor: text;}
 }
 
 @-webkit-keyframes "blink" {
   from, to { color: transparent;} 
-  50% { color: aqua;}
+  50% { color: aqua;
+        cursor: text;}
 }
 
 @-ms-keyframes "blink" {
   from, to {color: transparent;}
-  50% {color: white;}
+  50% {color: white;
+      cursor: text;}
 }
 
 @-o-keyframes "blink" {
   from, to {mcolor: transparent;}
-  50% { color: aqua;}
+  50% { color: aqua;
+        cursor: text;}
 }
 
 
 
 input{
-  position: absolute;
+  position: fixed;
   top:10px;
   right:10px;
   height:35px;
@@ -335,6 +342,7 @@ input{
   background: #00ffff;
   border: 3px solid #00b3b3;
   cursor: pointer;
+  z-index:1000;
 
 }
 
