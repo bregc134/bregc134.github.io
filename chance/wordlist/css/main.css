@@ -95,7 +95,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-font-size: 48px;
+font-size: 50px;
+z-index: 20;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 600px solid red;
+    background: linear-gradient(red, yellow);
+    position:absolute;
+    left:20px;
+    top:20px;
+    z-index: 10;
+
 }
 
 
