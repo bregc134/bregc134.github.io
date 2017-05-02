@@ -1,10 +1,8 @@
-var words = new Array("the");
-
 var a = new Array("a", "always", "able", "am", "about","America", "above", "among", "across", "amount", "act", "an", "action", "and", "actually", "angle", "add", "animal", "addition", "another", "adjective", "answer", "afraid", "any", "Africa", "anything", "after", "appear", "afternoon", "apple", "again", "are", "against", "area", "age", "arms", "ago", "army", "agreed", "around", "ahead", "arrived", "air", "art", "all", "as", "allow", "ask", "almost", "at", "alone", "away", "along", "already", "also", "although");
 
 var b = new Array("baby", "bird", "bill", "burning", "back", "bit", "business", "bad", "black", "but", "ball", "block", "buy", "bank", "blood", "by", "base", "blow", "be", "blue", "bear", "board", "beat", "boat", "beautiful", "body", "became", "bones", "because", "book", "become", "born", "bed", "both", "been", "bottom", "before", "bought", "began", "box", "begin", "boy", "behind", "branches", "being", "break", "believe", "bright", "bell", "bring", "belong", "British", "below", "broken", "beside", "brother", "best", "brought", "better", "brown",	"between", "build", "big", "building");
 
-var c = new Array("call", "came", "can", "cannot", "can’t", "capital", "captain", "car", "care", "carefully", "carry", "case", "cat", "catch", "cattle", "caught", "cause", "cells", "center", "cents", "century", "certain", "chance", "change", "chart", "check", "chief", "child", "children", "choose", "corn", "church", "corner", "circle", "correct", "city", "cost", "class", "cotton", "clean", "could", "clear", "couldn’t", "climbed", "count", "close", "country", "clothes", "course", "cloud", "covered", "coast", "cows", "cold",	"create", "color", "cried", "column", "crops", "come", "cross", "common", "crowd", "company", "current", "compare",	"cut", "complete", "compound", "conditions", "consider", "consonant", "contain", "continued", "control", "cook", "cool", "copy");
+var c = new Array("call", "came", "can", "cannot", "cant", "capital", "captain", "car", "care", "carefully", "carry", "case", "cat", "catch", "cattle", "caught", "cause", "cells", "center", "cents", "century", "certain", "chance", "change", "chart", "check", "chief", "child", "children", "choose", "corn", "church", "corner", "circle", "correct", "city", "cost", "class", "cotton", "clean", "could", "clear", "couldn’t", "climbed", "count", "close", "country", "clothes", "course", "cloud", "covered", "coast", "cows", "cold",	"create", "color", "cried", "column", "crops", "come", "cross", "common", "crowd", "company", "current", "compare",	"cut", "complete", "compound", "conditions", "consider", "consonant", "contain", "continued", "control", "cook", "cool", "copy");
 
 var d = new Array("doctor", "dance", "does", "dark", "doesnt", "day", "dog", "dead", "dollars", "deal", "done", "death", "dont", "decided", "door", "decimal", "down", "deep", "draw", "describe", "drawing", "desert", "dress", "design", "drive", "details", "drop", "determine", "dry", "developed", "during", "dictionary", "did", "didnt", "died", "difference", "different", "difficult", "direct", "direction", "discovered", "distance", "divided", "division", "do");
 
@@ -22,7 +20,7 @@ var j = new Array("just", "joined", "Japanese", "job", "jumped", "jump", "jacket
 
 var k = new Array("kept", "known", "keep", "key", "killed", "kind", "king", "knew", "know", "keen", "kill", "knife", "kick", "kid", "knit", "knock", "knot", "kiss", "kitchen", "kingdom", "knee", "kitchen", "kindness");
 
-var l = new Array("length", "located", "list", "lady", "listen", "lake", "little", "land", "live", "language", "large",	"long", "last", "look", "late", "lost", "laughed", "lot", "law", "loud", "lay",	"love", "lead",	"low", "learn",	"least", "leave", "led", "left", "legs", "less", "let",	"let’s", "letter", "level", "lie", "life", "lifted", "light", "like", "line");
+var l = new Array("length", "located", "list", "lady", "listen", "lake", "little", "land", "live", "language", "large",	"long", "last", "look", "late", "lost", "laughed", "lot", "law", "loud", "lay",	"love", "lead",	"low", "learn",	"least", "leave", "led", "left", "legs", "less", "let",	"lets", "letter", "level", "lie", "life", "lifted", "light", "like", "line");
 
 var m = new Array("machine", "made", "main", "major", "make", "man", "many", "map", "march", "mark", "match", "material", "matter", "may", "maybe", "me", "mean", "measure", "meat","meet", "melody", "members", "men", "metal", "method", "middle", "might", "mile", "milk", "million", "mind", "mine", "minutes", "miss", "modern", "molecules", "moment", "money", "months", "moon", "more", "morning", "most", "mother", "mountain", "mouth", "move", "movement", "much", "music", "must", "my");
 
@@ -46,7 +44,7 @@ var v = new Array("view", "value", "valley", "various", "verb", "very", "village
 
 var w = new Array("workers", "wrong", "wait", "which", "would", "walk",	"while", "wouldnt", "wall", "white", "write", "want", "who", "written", "war", "whole", "wrong", "warm", "whose", "wrote", "was", "why", "wash", "wide", "Washington",	"wife",	"wasnt", "wild", "watch",	"will",	"water", "win",	"waves", "wind");
 
-var x = new Array("xanthan", "xylophone", "xanthippe", "xi", "xanthocomic", "xenagogue", "xenagogy", "xenial", "xeniatrophobia", "xenium", "xenization", "xenocracy", "xenodochium", "xenodochy", "xenoglossy", "xenology", "xenomania", "xenomorph", "xenotansplantation", "xeric", "xeriscape", "xerochilia", "xerocopy", "xerography", "xesturgy", "xiphoid", "xoanon", "xtal", "xylographer");
+var x = new Array("xanthan", "xylophone", "xanthippe", "xi", "xanthocomic", "xenagogue", "xenagogy", "xenial", "xeniatrophobia", "xenium", "xenization", "xenocracy", "xenodochium", "xenodochy", "xenoglossy", "xenology", "xenomania", "xenomorph", "xenotansplantation", "xeric", "xeriscape", "xerochilia", "xerocopy", "xerography", "xesturgy", "xiphoid", "xoanon", "xtal", "xylographer", "x-ray");
 
 var y = new Array("yard", "year", "yellow", "yes", "yet", "you", "young", "your", "youre", "yourself", "yawn", "yearly", "yell", "yesterday", "yet", "youth");
 
@@ -58,7 +56,6 @@ var z = new Array("zebra", "zipper", "zero", "zone", "zoo", "zigzags", "zipping"
 //   console.log(w[i] + " is " + w[i].length + " characters long");
 // }
 
-$("p").html(words[Math.floor(Math.random()*words.length)]);
 $("p").append(" ");
 $("p").append(a[Math.floor(Math.random()*a.length)]);
 $("p").append(" ");
