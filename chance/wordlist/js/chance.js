@@ -70,7 +70,7 @@ $("p").append(" ");
 $("p").append(f[Math.floor(Math.random()*f.length)]);
 $("p").append(" ");
 $("p").append(g[Math.floor(Math.random()*g.length)]);
-$("p").append(" ");
+$("p").append("<br>");
 $("p").append(h[Math.floor(Math.random()*h.length)]);
 $("p").append(" ");
 $("p").append(i[Math.floor(Math.random()*i.length)]);
@@ -82,7 +82,7 @@ $("p").append(" ");
 $("p").append(l[Math.floor(Math.random()*l.length)]);
 $("p").append(" ");
 $("p").append(m[Math.floor(Math.random()*m.length)]);
-$("p").append(" ");
+$("p").append("<br>");
 $("p").append(n[Math.floor(Math.random()*n.length)]);
 $("p").append(" ");
 $("p").append(o[Math.floor(Math.random()*o.length)]);
@@ -92,7 +92,7 @@ $("p").append(" ");
 $("p").append(q[Math.floor(Math.random()*q.length)]);
 $("p").append(" ");
 $("p").append(r[Math.floor(Math.random()*r.length)]);
-$("p").append(" ");
+$("p").append("<br>");
 $("p").append(s[Math.floor(Math.random()*s.length)]);
 $("p").append(" ");
 $("p").append(t[Math.floor(Math.random()*t.length)]);
@@ -100,14 +100,33 @@ $("p").append(" ");
 $("p").append(u[Math.floor(Math.random()*u.length)]);
 $("p").append(" ");
 $("p").append(v[Math.floor(Math.random()*v.length)]);
-$("p").append(" ");
+$("p").append("<br>");
 $("p").append(w[Math.floor(Math.random()*w.length)]);
 $("p").append(" ");
 $("p").append(x[Math.floor(Math.random()*x.length)]);
 $("p").append(" ");
 $("p").append(y[Math.floor(Math.random()*y.length)]);
-$("p").append(" ");
+$("p").append("<br> ");
 $("p").append(z[Math.floor(Math.random()*z.length)]);
+
+
+
+var clicked = false;
+
+$(window).click(function(){
+	console.log("you clicked it");
+	if (clicked == false) {
+		$(".maskblack").show();
+		$(".mask").hide();
+		$("p").addClass("white-text");
+		clicked = true;
+	} else {
+		$(".mask").show();
+		$(".maskblack").hide();
+		$("p").removeClass("white-text");
+		clicked = false;
+	}
+})
 
 
 

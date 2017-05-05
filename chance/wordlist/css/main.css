@@ -1,3 +1,14 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
 body {
     background: url(../img/gradient.jpg);
 }
@@ -6,19 +17,23 @@ p{
 font-size: 60px;
 font-family: sans-serif;
 position:fixed;
-line-height: 75px;
-z-index: 50;
-width: 800px;
+line-height: 100px;
+width: 1400px;
 margin: 0 auto;
 text-align: center;
 left:50%;
 top:50%;
 transform: translate(-50%,-50%);
 cursor: default;
+z-index: 50;
+}
+
+.white-text {
+    color: white;
 }
 
 .container {
-    height: 5280px;
+    height: 8280px;
 }
 
 .mask {
@@ -31,6 +46,21 @@ cursor: default;
 }
 
 .mask img {
+    width: 100%;
+    height: auto;
+}
+
+.maskblack {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.maskblack img {
     width: 100%;
     height: auto;
 }
